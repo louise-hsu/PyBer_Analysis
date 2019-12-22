@@ -32,10 +32,10 @@ This Module taught me the following through Jupyter Notebook,Pandasm and MatPlot
 - Fig5: % of Total Fares by City Type
 - Fig6: % of Total Rides by City Type
 - Fig7: % of Total Drivers by City Type
-- Fig8: Total Fare by City Type
+- Fig8: Total Fare by City Type (CHallenge)
 
 ## PyBer Analysis
-- Resournce Folder - Look above for info
+- Resource Folder - Look above for info
 - analysis Folder - Look above for info
 - Chart_Extras: Extra file for learning how to plat
 - matplotlib_practice: Learning the syntax of the MatPlotLib
@@ -43,3 +43,74 @@ This Module taught me the following through Jupyter Notebook,Pandasm and MatPlot
 - PyBer_ride _data: Leaning how to read data from a file and plot it
 - PyBer_Challenge: Module 5 Skill Drills, and the Challenge 5
 
+# Summary
+***Please note: The summary is found in the in the analysis Folder, and the code found in the PyBer.ipny *** 
+
+The analysis of the PyBer Data show that:
+- There are 3 different City Type: Urban, Suburban, and Rural
+- PyBer Sharring Data:
+    - Urban City Types have the highest total number of rides per city and driver count, however the lowest average Fare($) per ride.
+    - Rural City Types have the lowest total number of rides per city and driver count, however the highest average Fare($) per ride.
+    - Suburban City Types are in between Urban and Rural in total number of rides per city, driver count, and average Fare($)
+- Urban Ride Count Data:
+    - The mean for the ride counts for urban trips is 24.62.
+    - The median for the ride counts for urban trips is 24.0.
+    - The mode for the ride counts for urban trips is ModeResult(mode=array([22], dtype=int64), count=array([7])).
+- Suburban Ride Count Data:
+    - The mean for the ride counts for suburban trips is 17.36.
+    - The median for the ride counts for suburban trips is 17.0.
+    - The mode for the ride counts for suburban trips is ModeResult(mode=array([17], dtype=int64), count=array([7])).
+- Rural Ride Count Data:
+    - The mean for the ride counts for rural trips is 6.94.
+    - The median for the ride counts for rural trips is 6.0.
+    - The mode for the ride counts for rural trips is ModeResult(mode=array([6], dtype=int64), count=array([5])). 
+- Urban Fare Price Data:
+    - The mean fare price for urban trips is $24.53.
+    - The median fare price for urban trips is $24.64.
+    - The mode fare price for urban trips is ModeResult(mode=array([22.86]), count=array([5])).
+- Suburben Fare Price Data:
+    - The mean fare price for suburban trips is $30.97.
+    - The median fare price for suburban trips is $30.75.
+    - The mode fare price for suburban trips is ModeResult(mode=array([17.99]), count=array([3])).
+- Rural Fare Price Data:
+    - The mean fare price for rural trips is $34.62.
+    - The median fare price for rural trips is $37.05.
+    - The mode fare price for rural trips is ModeResult(mode=array([37.05]), count=array([2])).
+- Urban Driver Count Data:
+    - The mean driver count for urban trips is 36.68.
+    - The median driver count for urban trips is 37.0.
+    - The mode driver count for urban trips is ModeResult(mode=array([39], dtype=int64), count=array([86])).
+- Suburban Driver Count Data:
+    - The mean driver count for suburban trips is 13.71.
+    - The median driver count for suburban trips is 16.0.
+    - The mode driver count for suburban trips is ModeResult(mode=array([20], dtype=int64), count=array([79])).
+- Rural Driver Count Data:
+    - The mean driver count for rural trips is 4.30.
+    - The median driver count for rural trips is 4.0.
+    - The mode driver count for rural trips is ModeResult(mode=array([1], dtype=int64), count=array([32])).
+- % of Total Fares by City Type
+    - 62.7% of the total Fares are from Urban City Types
+    - 30.5% of the total Fares are from Suburban City Types
+    - 6.8% of the total Fares are from Rural City Types
+- % of Total Rides by City Type
+    - 68.4% of Rides are from Urban City Types
+    - 26.3% of Rides are from Suburban City Types
+    - 5.3% of Rides are from Rural City Types
+- % of Total Drivers by City Type 
+    - 86.7% of Drivers are in Urban City Types
+    - 12.5 % of Drivers are in Suburban City Types
+    - 0.8% of Drivers are in Rural City Types
+    
+We can guess that since there are a lot more drivers in Urban Cities compared to Suburban and Rural, that the cost per ride is lower and the count rides are much greater. 
+
+    
+
+
+
+    
+
+    -
+    -
+
+
+   
