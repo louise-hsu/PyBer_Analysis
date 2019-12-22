@@ -103,14 +103,39 @@ The analysis of the PyBer Data show that:
     
 We can guess that since there are a lot more drivers in Urban Cities compared to Suburban and Rural, that the cost per ride is lower and the count rides are much greater. 
 
-    
+## Challenge Overview
+To create an overall snapshot of the ride_sharing data. he CEO would like to see a summary table of key metrics of the ride- sharing data by city type, and a multiple-line graph that shows the average fare for each week by each city type.
 
+1. Create a PyBer Summary DataFrame
+2. Create a multiple-line plot for the sum of the fares for each city Type
 
+## Challenge Summary
+***Please note: The Data Frame Summary is found in PyBer_Challenge, and the line graph Fig8 is found in the Analysis Folder in Github***
 
-    
-
-    -
-    -
-
+The analysis of the election (Module 5 Challenge) shows that:
+- The Total Rides
+    - Urban: 1,625
+    - Suburban: 625
+    - Rural: 125
+- The Total Drivers
+    - Urban: 2,405
+    - Suburban: 490
+    - Rural: 78
+- The Total Fare:
+    - Urban: $39,854.38
+    - Suburban: $19,356.33
+    - Rural: $4,327.93
+- Average Fare per Ride:
+    - Urban: $24.53
+    - Suburban: $30.97
+    - Rural: $34.62
+- Average Fare per Driver
+    - Urban: $16.57
+    - Suburban: $39.50
+    - Rural: $55.49   
+- Total Fare by City Type (Fig.8)
+    - The Fare for Urban city types is the greatest, then Suburban. The lowest fare out of all the city types is Rural. 
+    - From  Jan 2019- to mid April 2019, the fare for all the city types do not change greatly. 
+    - During this time frame, the Rural Fare stays ~$200-500, Suburban Fare stays ~$525-1500, and the Urban Fare stays ~$1600-2800. 
 
    
